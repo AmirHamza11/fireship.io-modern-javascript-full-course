@@ -1,4 +1,4 @@
-function search(arr, target, start = 0, end = arr.length - 1) {
+export function search(arr, target, start = 0, end = arr.length - 1) {
   if (start > end) {
     console.log("Not Found");
     return -1;
